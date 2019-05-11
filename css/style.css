@@ -6,8 +6,17 @@ h1{
     color:cyan;
 }
 #img{
-    height:160px;
-    width:160px;
+    height:140px;
+    width:140px;
     margin-top:2.5%;
-    justify-content: center;
+}
+.cube{
+    transform:preserve-3d;
+    width:200px;
+    height:200px;
+    margin:auto;
+}
+.cube img{
+    position:absolute;
+    opacity:0.8;
 }
