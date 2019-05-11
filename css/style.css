@@ -18,5 +18,23 @@ h1{
 }
 .cube img{
     position:absolute;
-    opacity:0.8;
+    opacity:0.3;
+}
+.cube img:nth-child(1){
+    transform:rotateY(0deg) translateZ(100px);
+}
+.cube img:nth-child(2){
+    transform:rotateY(90deg) translateZ(100px);
+}
+.cube img:nth-child(3){
+    transform: rotateY(180deg) translateZ(100px);
+}
+.cube img:nth-child(4){
+    transform:rotateY(-90deg) translateZ(100px);
+}
+.cube img:nth-child(5){
+    transform:rotateX(90deg) translateZ(100px);
+}
+.cube img:nth-child(6){
+    transform:rotateX(-90deg) translateZ(100px);
 }
