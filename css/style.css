@@ -16,7 +16,7 @@ h1{
     perspective-origin: 50% 50%;
 }
 .cube{
-    transform:preserve-3d;
+    transform-style:preserve-3d;
     width:200px;
     height:200px;
     margin:auto;
@@ -47,4 +47,7 @@ h1{
 @keyframes loop{
     from{transform:rotateX(0deg) rotateY(0deg);}
     to{transform:rotateX(360deg) rotateY(360deg);}
+}
+.cube{
+    animation: loop 10s linear infinite;
 }
