@@ -10,6 +10,11 @@ h1{
     width:140px;
     margin-top:2.5%;
 }
+.wrap{
+    margin-top:150px;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+}
 .cube{
     transform:preserve-3d;
     width:200px;
@@ -18,7 +23,7 @@ h1{
 }
 .cube img{
     position:absolute;
-    opacity:0.3;
+    opacity:0.8;
 }
 .cube img:nth-child(1){
     transform:rotateY(0deg) translateZ(100px);
