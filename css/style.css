@@ -6,8 +6,8 @@ h1{
     color:cyan;
 }
 #img{
-    height:140px;
-    width:140px;
+    height:200px;
+    width:200px;
     margin-top:2.5%;
 }
 .wrap{
@@ -20,6 +20,7 @@ h1{
     width:200px;
     height:200px;
     margin:auto;
+    position:relative;
 }
 .cube img{
     position:absolute;
