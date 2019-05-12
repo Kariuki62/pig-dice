@@ -118,3 +118,10 @@
     margin-bottom:130px;
 }
 .active .player-name {font-weight:300;}
+.player-current-box{
+    background-color:peru;
+    color:beige;
+    width: 40%;
+    margin:0 auto;
+    text-align: center;
+}
