@@ -11,7 +11,6 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div  class="container">
         <h1>COME ROLL A DICE</h1>
                        <div class="wrap">  
                           <div class="cube">
@@ -25,25 +24,35 @@
 
         </div>
     </div>
-    <div class="new player">
-    <div class="play-1-panel active" >
-        <div class="first-name" id="first-1">First Guy</div>
-        <div class="play-score" id="score-1"> 56 </div>
-        <div class="play-current-box"></div>
-        <div class="play-current-label">Current</div>
-        <div class="play-current-score" id="current-1">11</div>
-
+    <div class="new player 1">
+    <div class="player-1-panel active" >
+        <div class="player-name" id="first-1">First Guy</div>
+        <div class="player-score" id="score-1"> 56 </div>
+        <div class="player-current-box">
+        <div class="player-current-label">Current</div>
+        <div class="player-current-score" id="current-1">11</div>
+    </div>
     </div>
     </div>
     <div class="new player 2">
-        <div class="player-name" id="first-2">First Guy</div>
-        <div class="player-score" id="score-2"> 56 </div>
-        <div class="player-current-box"></div>
+            <div class="player-2-panel active" >
+        <div class="player-name" id="first-2">Second Guy</div>
+        <div class="player-score" id="score-2"> 73 </div>
+        <div class="player-current-box">
         <div class="player-current-label">Current</div>
         <div class="player-current-score" id="current-2">0</div>
     </div>
-    but
-</div>
-    
+    </div>
+    </div>
+    <button class="btn-new"><i class="Outline"></i>Start Up</button>
+    <button class="btn-new"><i class="Loop"></i>Roll Me</button>
+    <button class="btn-new"><i class="Great"></i>Stop</button>
+
+    <input type="text" placeholder="Final Score" class="final-score">
+
+   <img src="img/img7.png" alt="" class="dice" id="dice-1">
+   <img src="img/img8.png" alt="" class="dice" id="dice-2">
+
+    <script src="js/script.js"></script>
 </body>
 </html>
