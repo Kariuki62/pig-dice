@@ -16,12 +16,12 @@ This is a dice game involving two players who then play in turns. The game has a
 *You can enjoy the code.
 
 ## BDD
-
- Behavior of the Pig Dice                     |  input                         | output                       |---------------------------------------------|--------------------------------|---------------------------   |
+|  Behavior of the pig dice                   |     input                      |     Output                   |
+|---------------------------------------------|--------------------------------|------------------------------|
 | click on roll me                            | It prompts results after click | Shows the scores             |
 | click on start up                           | The game refreshes             |new player gets a chance      |
 | Click on stop                               | Player results stop loading    |Stop is alerted               |
-| Final score                                 |Final Score is shown            |Function prompts after clicks |                    |
+| Final score                                 |Final Score is shown            |Function prompts after clicks |                
 
 ## Known Bugs
 
