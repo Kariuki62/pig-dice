@@ -1,63 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-           <meta charset="utf-8" />
-             <meta http-equiv="X-UA-Compatible" content="IE=edge">
-              <title>Dice Roll</title>
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                  <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
-                    <link href='http://fonts.googleapis.com/css?family=Monoton' rel='stylesheet'>
-                        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+  <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dice Roll</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
+    <link href='http://fonts.googleapis.com/css?family=Monoton' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 </head>
 <body>
-        <h1>COME ROLL A DICE</h1>
-                       <div class="wrap">  
-                          <div class="cube">
-                             <img src="img/img1.png" id="img">
-                               <img src="img/img2.png" id="img">
-                                <img src="img/img3.png" id="img">
-                                 <img src="img/img4.png" id="img">
-                                  <img src="img/img5.png" id="img">
-                                   <img src="img/img6.png" id="img">
+  <h1>COME ROLL A DICE</h1>
+    <div class="wrap">  
+      <div class="cube">
+        <img src="img/img1.png" id="img">
+        <img src="img/img2.png" id="img">
+        <img src="img/img3.png" id="img">
+        <img src="img/img4.png" id="img">
+        <img src="img/img5.png" id="img">
+        <img src="img/img6.png" id="img">
+      </div>
+  </div>
+  <div class="new player 1">
+    <div class="player-1-panel active" >
+       <div class="player-name" id="name-1">First Guy</div>
+       <div class="player-score" id="score-1"> 56 </div>
+       <div class="player-current-box">
+       <div class="player-current-label">Current</div>
+       <div class="player-current-score" id="current-1">11</div>
+  </div>
+</div>
+     <div class="new player 2">
+     <div class="player-2-panel active">
+      <div class="player-name" id="name-2">Second Guy</div>
+      <div class="player-score" id="score-2"> 73 </div>
+      <div class="player-current-box">
+      <div class="player-current-label">Current</div>
+      <div class="player-current-score" id="current-2">0</div>
+  </div>
+</div>
+    <button class="btn-new">Start Up</button>
+    <button class="btn-roll">Roll Me</button>
+    <button class="btn-stop">Stop</button>
+    
+ <input type="text" placeholder="Final Score" class="final-score">
 
-
-        </div>
-    </div>
-    <div class="new player 1">
-         <div class="player-1-panel active" >
-                <div class="player-name" id="first-1">First Guy</div>
-                    <div class="player-score" id="score-1"> 56 </div>
-                        <div class="player-current-box">
-                            <div class="player-current-label">Current</div>
-                                 <div class="player-current-score" id="current-1">11</div>
-            </div>
-        </div>
-    </div>
-    <div class="new player 2">
-            <div class="player-2-panel active" >
-                    <div class="player-name" id="second-2">Second Guy</div>
-                        <div class="player-score" id="score-2"> 73 </div>
-                             <div class="player-current-box">
-                                 <div class="player-current-label">Current</div>
-                                    <div class="player-current-score" id="current-2">0</div>
-             </div>
-         </div>
-    </div>
-    <button class="btn-new"><i class="Outline"></i>Start Up</button>
-                <button class="btn-roll"><i class="Loop"></i>Roll Me</button>
-                    <button class="btn-stop"><i class="Great"></i>Stop</button>
-
-    <input type="text" placeholder="Final Score" class="final-score">
-
-   <img src="img/img7.png" alt="" class="dice" id="dice-1">
-        <img src="img/img8.png" alt="" class="dice" id="dice-2">
-            <img src="img/img1.png" alt="" class="dice" id="dice-1">
-                <img src="img/img4.png" alt="" class="dice" id="dice-2">
-                    <img src="img/img5.png" alt="" class="dice" id="dice-1">
-                        <img src="img/img6.png" alt="" class="dice" id="dice-2">
+    <img src="img/img7.png" alt="Dice" class="dice" id="dice-1">
+    <img src="img/img7.png" alt="Dice" class="dice" id="dice-2">
 
 
    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-        <script src="js/script.js"></script>
+   <script src="js/script.js"></script>
+   <script src="js/script2.js"></script>
+
+</body>
 </body>
 </html>
